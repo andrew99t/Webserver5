@@ -1,5 +1,5 @@
 # Webserver5
-Static analasis
+Static analysis
 ![ss1](https://user-images.githubusercontent.com/62714521/143848575-50380a94-b0ee-4483-8933-7771df61b243.png)
 Dynamic analysis
 ![ss2](https://user-images.githubusercontent.com/62714521/143848693-99ff3fae-df26-4a5d-b74a-6fd2d7177ee0.png)
