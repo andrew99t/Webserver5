@@ -1,4 +1,4 @@
-package websrv;
+package Main;
 
 import java.io.IOException;
 import java.net.ServerSocket;
