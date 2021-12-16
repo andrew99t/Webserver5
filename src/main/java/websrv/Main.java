@@ -1,25 +1,14 @@
-package Main;
-
-import websrv.Server;
+package websrv;
 
 import java.io.IOException;
 import java.net.ServerSocket;
-
-import static websrv.Server.initializeServer;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = null;
+		String html="<html><head><title>Server TITI</title></head><body><ch1>pagina de test</ch1></body></html>";
 
-		String html="<html><head><title>Server Tiution Andrei</title></head><body><ch1>pagina de test</ch1></body></html>";
-		Thread startServer=new Thread() {
-
-			public void run() {
-				initializeServer();
-			}
-		};
-		startServer.start();
 		try {
 			serverSocket = new ServerSocket(10008);
 			System.out.println("Connection Socket Created");
