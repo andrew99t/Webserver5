@@ -17,7 +17,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 
 		String Server_Root = "src/main/resources/HTML/Index.html";
-		String html="<html><head><title>Server TITI</title></head><body><ch1>pagina de test</ch1></body></html>";
+		//String html="<html><head><title>Server TITI</title></head><body><ch1>pagina de test</ch1></body></html>";
 		Scanner scanner = null;
 		String Root_html=null;
 		try {

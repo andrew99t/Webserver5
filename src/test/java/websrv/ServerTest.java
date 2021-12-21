@@ -1,6 +1,7 @@
 package websrv;
 
 import junit.framework.TestCase;
+import junit.framework.TestResult;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,8 +9,6 @@ import org.junit.Test;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-
-import static org.junit.Assert.*;
 
 public class ServerTest extends TestCase {
 
@@ -44,5 +43,12 @@ public class ServerTest extends TestCase {
         server.initializeServer();
         server.SERVER_STATUS = "STOP_SERVER";
     }
+
+    public TestResult run() {
+
+
+        return null;
+    }
+
 
 }
