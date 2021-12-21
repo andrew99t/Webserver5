@@ -1,0 +1,171 @@
+{
+  "id": "1de11308-1a2f-4268-916a-7bfd71c098d9",
+  "version": "2.0",
+  "name": "Testing",
+  "url": "http://127.0.0.1:10008",
+  "tests": [{
+    "id": "5822c34f-b709-4f21-bda0-6eb07475f44f",
+    "name": "Testing",
+    "commands": [{
+      "id": "61c11a42-3e99-4489-98eb-db2e8f92b514",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e2a33b1-93da-4951-99d4-5bef3904ecd3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f68490be-482a-4b8f-be3b-5e82680a76b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Page 1",
+      "targets": [
+        ["linkText=Page 1", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Page 1')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'src/main/resources/HTML/Page1/Page1.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Page 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "242d87dc-756b-4cc1-bb6c-809a6b13e05d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Page 2",
+      "targets": [
+        ["linkText=Page 2", "linkText"],
+        ["css=p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Page 2')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\Page1\\Page2\\Page2.html')]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Page 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a484c0b-1e63-4153-847d-9a8f17ad92b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Main page",
+      "targets": [
+        ["linkText=Main page", "linkText"],
+        ["css=p:nth-child(22) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Main page')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'HTML/Index.html')]", "xpath:href"],
+        ["xpath=//p[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Main page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19b3c87f-120b-4fad-9407-1c7a3ff939da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Page 1",
+      "targets": [
+        ["linkText=Page 1", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Page 1')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'src/main/resources/HTML/Page1/Page1.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Page 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ff2dc5-a41d-4618-8432-f6023dc9ef19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Page 1",
+      "targets": [
+        ["linkText=Page 1", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Page 1')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'src/main/resources/HTML/Page1/Page1.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Page 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0411c2ca-7d32-45fd-be5f-a6255df62e51",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Page 1",
+      "targets": [
+        ["linkText=Page 1", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Page 1')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'src/main/resources/HTML/Page1/Page1.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Page 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11b406ae-8f03-4bb5-8a16-e0b468be4ab5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Main page",
+      "targets": [
+        ["linkText=Main page", "linkText"],
+        ["css=p:nth-child(22) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Main page')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'HTML/Index.html')]", "xpath:href"],
+        ["xpath=//p[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Main page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8751c60a-c158-4832-a90e-8bf2d5d0f9f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Page 2",
+      "targets": [
+        ["linkText=Page 2", "linkText"],
+        ["css=p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Page 2')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\Page1\\Page2\\Page2.html')]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Page 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d83e2744-809b-49d7-889c-fdd5f6d38c69",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Page 2",
+      "targets": [
+        ["linkText=Page 2", "linkText"],
+        ["css=p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Page 2')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\Page1\\Page2\\Page2.html')]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Page 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c003a05-a1b2-40be-af19-6ff5e49732f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7005b600-092a-4a81-888a-8ee1ce601b07",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5822c34f-b709-4f21-bda0-6eb07475f44f"]
+  }],
+  "urls": ["http://127.0.0.1:10008/"],
+  "plugins": []
+}
