@@ -12,27 +12,27 @@ public class Path {
         if(path.contains(".css")) return getPathCss(path);
 
         if(path.contains(" ")) path = path.replace(" ", "%20");
-        if (path.equals("")) return "..\\Webserver5\\src\\Main\\WebCss\\index.html";
-        if (path.charAt(path.length()-1) == '/') return  "..\\Webserver5\\src\\Main\\WebCss\\index.html";
-        return  "..\\Webserver5\\src\\Main\\WebCss\\" + path;
+        if (path.equals("")) return "C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\Index.html";
+        if (path.charAt(path.length()-1) == '/') return  "C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\Index.html";
+        return  "C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\" + path;
     }
 
     private static String getPathCss(String path)
     {
         if(path.contains(" ")) path = path.replace(" ", "%20");
-        return "..\\Webserver5\\src\\Main\\WebCss\\" + path;
+        return "C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\" + path;
     }
 
     private static String getPathTxt(String path)
     {
         if(path.contains(" ")) path = path.replace(" ", "%20");
-        return "..\\Webserver5\\src\\Main\\WebCss\\" + path;
+        return "C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\" + path;
     }
 
     private static String getPathJpg(String path)
     {
         if(path.contains(" ")) path = path.replace(" ", "%20");
-        return "..\\Webserver5\\src\\Main\\WebCss\\" + path;
+        return "C:\\Users\\Windows 10\\Desktop\\Webserver5\\src\\main\\java\\HTML\\" + path;
     }
 
 }

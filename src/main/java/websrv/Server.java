@@ -36,9 +36,7 @@ public class Server extends Thread {
 		try {
 			
 			outputStream = clientSocket.getOutputStream();
-			
-			
-			
+
 			
 			outputStream.write(formatedHtml.getBytes());
 			
@@ -52,12 +50,12 @@ public class Server extends Thread {
 
 	public static void initializeServer() {
 
-		System.out.println("Enter SERVER STATUS:\t0: STOP\t1: MAINTENANCE\t2: RUN\t9: EXIT\n");
+		System.out.println("Enter SERVER STATUS:\t0: STOP\t1: RUN\t2: EXIT\n");
 		System.out.println("CURRENT SERVER STATUS: " + SERVER_STATUS);
 		Scanner myObj = new Scanner(System.in, "UTF-8");
 		if(myObj.nextLine().equals("0")) SERVER_STATUS = "STOP_SERVER";
-		if(myObj.nextLine().equals("2")) SERVER_STATUS = "RUN_SERVER";
-		if(myObj.nextLine().equals("9")) SERVER_STATUS = "EXIT";
+		if(myObj.nextLine().equals("1")) SERVER_STATUS = "RUN_SERVER";
+		if(myObj.nextLine().equals("2")) SERVER_STATUS = "EXIT";
 		System.out.println("\nNEW CURRENT SERVER STATUS: " + SERVER_STATUS + "\n");
 
 		if(!SERVER_STATUS.equals("EXIT")) initializeServer();
